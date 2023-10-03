@@ -1,0 +1,82 @@
+/* Reset CSS */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling the Page */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-img {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 400px; /* Lebar gambar */
+  height: 400px; /* Tinggi gambar */
+}
+
+.profile-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 28px;
+  color: #333;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 10px;
+  font-size: 24px;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-media a:hover {
+  color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+}
